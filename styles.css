@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+div{
+	background-color:red;
+	height:100px;
+	width:100px;
+	animation-name:pulse;
+animation :pulse 1s ease-in-out infinite; 
+	
+}
+@key frame pulse{
+	transform: rotate (30deg);
+}
