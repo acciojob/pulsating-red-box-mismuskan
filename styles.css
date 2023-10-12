@@ -8,5 +8,5 @@ animation :pulse 1s ease-in-out infinite;
 	
 }
 @key frame pulse{
-	transform: rotate (30deg);
+	transform: scale(2 2);
 }
